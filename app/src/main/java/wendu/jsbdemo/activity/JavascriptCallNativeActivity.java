@@ -1,9 +1,12 @@
-package wendu.jsbdemo;
+package wendu.jsbdemo.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import wendu.dsbridge.DWebView;
+import wendu.jsbdemo.api.JsApi;
+import wendu.jsbdemo.api.JsEchoApi;
+import wendu.jsbdemo.R;
 
 public class JavascriptCallNativeActivity extends AppCompatActivity {
 

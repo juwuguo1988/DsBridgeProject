@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="wendu.jsbdemo.CallJavascriptActivity">
+    tools:context="wendu.jsbdemo.activity.CallJavascriptActivity">
 
     <ScrollView
         android:layout_width="match_parent"

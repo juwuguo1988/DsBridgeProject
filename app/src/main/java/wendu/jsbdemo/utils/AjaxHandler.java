@@ -1,4 +1,4 @@
-package wendu.jsbdemo;
+package wendu.jsbdemo.utils;
 
 import android.util.Base64;
 

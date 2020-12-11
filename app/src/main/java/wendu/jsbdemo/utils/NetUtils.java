@@ -1,4 +1,4 @@
-package wendu.jsbdemo;
+package wendu.jsbdemo.utils;
 
 import java.net.CookieManager;
 import org.json.JSONObject;

@@ -1,4 +1,4 @@
-package wendu.jsbdemo;
+package wendu.jsbdemo.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,8 @@ import org.json.JSONObject;
 
 import wendu.dsbridge.CompletionHandler;
 import wendu.dsbridge.DWebView;
+import wendu.jsbdemo.utils.AjaxHandler;
+import wendu.jsbdemo.R;
 
 public class WrokWithFlyioTestActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package wendu.jsbdemo;
+package wendu.jsbdemo.api;
 
 import android.webkit.JavascriptInterface;
 

@@ -1,4 +1,4 @@
-package wendu.jsbdemo;
+package wendu.jsbdemo.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,7 @@ import org.json.JSONObject;
 
 import wendu.dsbridge.DWebView;
 import wendu.dsbridge.OnReturnValue;
+import wendu.jsbdemo.R;
 
 public class CallJavascriptActivity extends AppCompatActivity implements View.OnClickListener {
 
