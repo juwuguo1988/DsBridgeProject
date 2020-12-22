@@ -40,15 +40,6 @@ public class SelfJavaScriptActivity extends AppCompatActivity {
     }
 
     private void initData() {
-        WebSettings webSettings = webView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-        webSettings.setJavaScriptCanOpenWindowsAutomatically(true);
-        webSettings.setDefaultTextEncodingName("utf-8");  //文本编码
-        webSettings.setDomStorageEnabled(true);//设置DOM存储已启用（注释后文本显示变成js代码）
-        webSettings.setAllowFileAccess(true);
-        webSettings.setAllowContentAccess(true);
-        webView.setVerticalScrollBarEnabled(false);
-        webView.setHorizontalScrollBarEnabled(false);
         try {//本地HTML里面有跨域的请求 原生webview需要设置之后才能实现跨域请求
             if (Build.VERSION.SDK_INT >= 16) {
                 Class<?> clazz = webView.getSettings().getClass();
